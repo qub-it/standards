@@ -11,4 +11,12 @@ public class Locality extends Place<Municipality, PostalCode> {
         this.code = code;
     }
 
+    public String getCode() {
+        return code;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof Locality && ((Locality) obj).getCode().equals(getCode());
+    }
 }

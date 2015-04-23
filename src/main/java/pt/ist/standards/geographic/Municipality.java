@@ -32,4 +32,13 @@ public class Municipality extends Place<District, Locality> {
         return new HashSet<Parish>(values);
     }
 
+    public String getCode() {
+        return code;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof Municipality && ((Municipality) obj).getCode().equals(getCode());
+    }
+
 }

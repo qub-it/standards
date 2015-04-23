@@ -15,4 +15,8 @@ public class District extends Place<Country, Municipality> {
         return code;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof District && ((District) obj).getCode().equals(getCode());
+    }
 }

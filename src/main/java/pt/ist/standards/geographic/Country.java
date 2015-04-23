@@ -44,4 +44,9 @@ public class Country extends Place<Planet, District> {
         return alpha3;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof Country && ((Country) obj).getAlpha3().equals(getAlpha3());
+    }
+
 }

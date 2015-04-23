@@ -25,4 +25,9 @@ public class PostalCode extends Place<Locality, Place<PostalCode, ?>> {
     public String getCode() {
         return code;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof PostalCode && ((PostalCode) obj).getCode().equals(getCode());
+    }
 }
