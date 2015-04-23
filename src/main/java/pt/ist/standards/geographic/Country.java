@@ -40,4 +40,8 @@ public class Country extends Place<Planet, District> {
         return postalCodeMap.get(code);
     }
 
+    public String getAlpha3() {
+        return alpha3;
+    }
+
 }

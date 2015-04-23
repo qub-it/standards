@@ -12,8 +12,11 @@ public class Municipality extends Place<District, Locality> {
 
     private final Map<String, Parish> parishes = new HashMap<String, Parish>();
 
+    public final String code;
+
     public Municipality(final District district, final String name, final String code) {
         super(district, name, code);
+        this.code = code;
     }
 
     void addParish(final Parish parish) {

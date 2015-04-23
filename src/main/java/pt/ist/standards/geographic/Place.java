@@ -90,4 +90,8 @@ public abstract class Place<P extends Place<?, ? extends Place<P, C>>, C extends
         return name;
     }
 
+    public P getParent() {
+        return parent;
+    }
+
 }

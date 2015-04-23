@@ -10,8 +10,11 @@ public class PostalCode extends Place<Locality, Place<PostalCode, ?>> {
 
     final SortedSet<String> streets = new TreeSet<String>();
 
+    public final String code;
+
     public PostalCode(final Locality locality, final String name, final String code) {
         super(locality, name, code);
+        this.code = code;
         locality.parent.parent.parent.postalCodeMap.put(code, this);
     }
 
@@ -19,4 +22,7 @@ public class PostalCode extends Place<Locality, Place<PostalCode, ?>> {
         return Collections.unmodifiableSortedSet(streets);
     }
 
+    public String getCode() {
+        return code;
+    }
 }
