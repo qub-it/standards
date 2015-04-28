@@ -44,8 +44,8 @@ class DataLoader {
             final String line = content[i];
             final int s = line.indexOf(';');
             if (s > 0) {
-                final String code = line.substring(0, s);
-                final String name = line.substring(s + 1);
+                final String code = line.substring(0, s).trim();
+                final String name = line.substring(s + 1).trim();
                 new District(country, name, code);
             }
         }
@@ -57,9 +57,9 @@ class DataLoader {
             final int s1 = line.indexOf(';');
             final int s2 = line.indexOf(';', s1 + 1);
             if (s2 > 0) {
-                final String districtKey = line.substring(0, s1);
-                final String code = line.substring(s1 + 1, s2);
-                final String name = line.substring(s2 + 1);
+                final String districtKey = line.substring(0, s1).trim();
+                final String code = line.substring(s1 + 1, s2).trim();
+                final String name = line.substring(s2 + 1).trim();
                 final District district = country.getPlace(districtKey);
                 new Municipality(district, name, code);
             }
@@ -86,14 +86,14 @@ class DataLoader {
             final int s15 = line.indexOf(';', s14 + 1);
             final int s16 = line.indexOf(';', s15 + 1);
 
-            final String districtKey = line.substring(0, s1);
-            final String municipalityKey = line.substring(s1 + 1, s2);
-            final String localityKey = line.substring(s2 + 1, s3);
-            final String localityName = line.substring(s3 + 1, s4);
-            final String postalCodeKey = line.substring(s14 + 1, s15);
-            final String extension = line.substring(s15 + 1, s16);
+            final String districtKey = line.substring(0, s1).trim();
+            final String municipalityKey = line.substring(s1 + 1, s2).trim();
+            final String localityKey = line.substring(s2 + 1, s3).trim();
+            final String localityName = line.substring(s3 + 1, s4).trim();
+            final String postalCodeKey = line.substring(s14 + 1, s15).trim();
+            final String extension = line.substring(s15 + 1, s16).trim();
             final String vCodigoPostal = postalCodeKey + "-" + extension;
-            final String postalCodeName = line.substring(s16 + 1);
+            final String postalCodeName = line.substring(s16 + 1).trim();
 
             final District district = country.getPlace(districtKey);
             final Municipality municipality = district.getPlace(municipalityKey);
