@@ -2,23 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>org.fenixedu</groupId>
-		<artifactId>fenixedu-project</artifactId>
-		<version>2.2.0</version>
-	</parent>
+   <parent>
+        <groupId>com.qubit.solution.fenixedu.build</groupId>
+        <artifactId>qub-fenixedu-project</artifactId>
+        <version>1.2.0</version>
+        <relativePath />
+    </parent>
 
 	<groupId>pt.ist</groupId>
 	<artifactId>standards</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<version>1.1.0-FORK</version>
 	<name>standards</name>
-
-	<scm>
-		<connection>scm:git:git@github.com:ist-dsi/standards.git</connection>
-		<developerConnection>scm:git:git@github.com:ist-dsi/standards.git</developerConnection>
-		<url>https://github.com/ist-dsi/standards</url>
-		<tag>HEAD</tag>
-	</scm>
 
 	<dependencies>
 		<dependency>
@@ -27,6 +21,17 @@
 			<version>2.2.3</version>
 		</dependency>
 	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>ulisboa-repo</id>
+			<url>https://nexjen.ulisboa.pt/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>ulisboa-repo</id>
+			<url>https://nexjen.ulisboa.pt/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<repositories>
 		<repository>
