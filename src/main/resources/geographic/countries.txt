@@ -244,7 +244,6 @@ VU	VUT	548	Vanuatu
 WF	WLF	876	Wallis and Futuna
 WS	WSM	882	Samoa
 YE	YEM	887	Yemen
-XK	UNK	000	Kosovo
 XX	XXA	999	Statelessness
 ZA	ZAF	710	South Africa
 ZM	ZMB	894	Zambia
