@@ -51,6 +51,7 @@ KM	COM	174	Comoros
 CV	CPV	132	Cape Verde
 CR	CRI	188	Costa Rica
 CU	CUB	192	Cuba
+CW	CUW	531	Curaçao
 CX	CXR	162	Christmas Island
 KY	CYM	136	Cayman Islands
 CY	CYP	196	Cyprus
@@ -200,6 +201,8 @@ SL	SLE	694	Sierra Leone
 SV	SLV	222	El Salvador
 SM	SMR	674	San Marino
 SO	SOM	706	Somalia
+SS	SSD	728	South Sudan
+SX	SXM	534	Sint Maarten (Dutch part)
 PM	SPM	666	Saint Pierre and Miquelon
 ST	STP	678	São Tomé and Príncipe
 SR	SUR	740	Suriname
@@ -211,6 +214,7 @@ SC	SYC	690	Seychelles
 SY	SYR	760	Syria
 TC	TCA	796	Turks and Caicos Islands
 TD	TCD	148	Chad
+TF	ATF	260	French Southern Territories
 TG	TGO	768	Togo
 TH	THA	764	Thailand
 TJ	TJK	762	Tajikistan
@@ -240,6 +244,8 @@ VU	VUT	548	Vanuatu
 WF	WLF	876	Wallis and Futuna
 WS	WSM	882	Samoa
 YE	YEM	887	Yemen
+XK	UNK	000	Kosovo
+XX	XXA	999	Statelessness
 ZA	ZAF	710	South Africa
 ZM	ZMB	894	Zambia
 ZW	ZWE	716	Zimbabwe
