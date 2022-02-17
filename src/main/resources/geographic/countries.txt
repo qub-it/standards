@@ -2,7 +2,7 @@ AW	ABW	533	Aruba
 AF	AFG	4	Afghanistan
 AO	AGO	24	Angola
 AI	AIA	660	Anguilla
-AX	ALA	248	Ã…land Islands
+AX	ALA	248	Åland Islands
 AL	ALB	8	Albania
 AD	AND	20	Andorra
 AE	ARE	784	United Arab Emirates
@@ -24,7 +24,7 @@ BG	BGR	100	Bulgaria
 BH	BHR	48	Bahrain
 BS	BHS	44	Bahamas
 BA	BIH	70	Bosnia and Herzegovina
-BL	BLM	652	Saint BarthÃ©lemy
+BL	BLM	652	Saint Barthélemy
 BY	BLR	112	Belarus
 BZ	BLZ	84	Belize
 BM	BMU	60	Bermuda
@@ -41,7 +41,7 @@ CC	CCK	166	Cocos [Keeling] Islands
 CH	CHE	756	Switzerland
 CL	CHL	152	Chile
 CN	CHN	156	China
-CI	CIV	384	CÃ´te dâ€™Ivoire
+CI	CIV	384	Côte d'Ivoire
 CM	CMR	120	Cameroon
 CD	COD	180	Congo - Kinshasa
 CG	COG	178	Congo - Brazzaville
@@ -51,7 +51,7 @@ KM	COM	174	Comoros
 CV	CPV	132	Cape Verde
 CR	CRI	188	Costa Rica
 CU	CUB	192	Cuba
-CW	CUW	531	CuraÃ§ao
+CW	CUW	531	Curaçao
 CX	CXR	162	Christmas Island
 KY	CYM	136	Cayman Islands
 CY	CYP	196	Cyprus
@@ -184,7 +184,7 @@ PY	PRY	600	Paraguay
 PS	PSE	275	Palestinian Territories
 PF	PYF	258	French Polynesia
 QA	QAT	634	Qatar
-RE	REU	638	RÃ©union
+RE	REU	638	Réunion
 RO	ROU	642	Romania
 RU	RUS	643	Russia
 RW	RWA	646	Rwanda
@@ -204,7 +204,7 @@ SO	SOM	706	Somalia
 SS	SSD	728	South Sudan
 SX	SXM	534	Sint Maarten (Dutch part)
 PM	SPM	666	Saint Pierre and Miquelon
-ST	STP	678	SÃ£o TomÃ© and PrÃ­ncipe
+ST	STP	678	São Tomé and Príncipe
 SR	SUR	740	Suriname
 SK	SVK	703	Slovakia
 SI	SVN	705	Slovenia
@@ -248,7 +248,7 @@ XX	XXA	999	Statelessness
 ZA	ZAF	710	South Africa
 ZM	ZMB	894	Zambia
 ZW	ZWE	716	Zimbabwe
-CW	CUW	531	CuraÃ§ao
+CW	CUW	531	Curaçao
 SS	SSD	728	South Sudan
 SX	SXM	534	Sint Maarten (Dutch part)
 TF	ATF	260	French Southern Territories
