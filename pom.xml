@@ -11,7 +11,7 @@
 
 	<groupId>pt.ist</groupId>
 	<artifactId>standards</artifactId>
-	<version>1.3.1</version>
+	<version>1.3.2-FORK</version>
 	<name>standards</name>
 
 	<dependencies>
