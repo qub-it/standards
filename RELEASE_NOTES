@@ -1,3 +1,5 @@
+Bug fix: spelling correction "Britânica" word [#UL-FD-2420]
+
 1.5.1-FORK (01-09-2026)
 Bug fix: update districts, municipalities and postalCodes data (source: appserver2.ctt.pt) [#UL-FL-12831]
 
